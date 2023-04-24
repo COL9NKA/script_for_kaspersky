@@ -1,5 +1,5 @@
 import os
-txt_name = input("введите адрес txt файла: ") 
+txt_name = input("Введите полный адрес txt файла: ") 
 f = open(txt_name, "r", encoding='utf-8')
 a = f.read()
 j=0
